@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 
 streamlit.title('I am ready to load the stream')
 streamlit.header ('This is my menu')
