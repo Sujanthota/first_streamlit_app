@@ -39,7 +39,7 @@ my_cur = my_cnx.cursor()
 streamlit.write('Thanks for adding',add_my_fruit)
 
 my_cur.execute("select * from fruit_load_list")
-my_cur.execute("inesert into fruit_load_list values ('from streamlit')")
+
 
 my_data_row = my_cur.fetchall()
 streamlit.header("The fruit load list contains")
